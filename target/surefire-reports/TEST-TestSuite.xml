@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.904" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.915" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="ID"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\FADLIF~1\AppData\Local\Temp\surefire480479164055027028\surefirebooter7989845159318662924.jar C:\Users\Fadli Fajri\AppData\Local\Temp\surefire480479164055027028 2022-06-06T10-19-27_631-jvmRun1 surefire8560723770280187668tmp surefire_03262105751078497025tmp"/>
+    <property name="sun.java.command" value="C:\Users\FADLIF~1\AppData\Local\Temp\surefire3449379797433847512\surefirebooter1800045718298080324.jar C:\Users\Fadli Fajri\AppData\Local\Temp\surefire3449379797433847512 2022-06-06T10-21-09_282-jvmRun1 surefire1067364185646925583tmp surefire_0879583227471074638tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Fadli Fajri\eclipse-workspace\sandbox01\target\test-classes;C:\Users\Fadli Fajri\eclipse-workspace\sandbox01\target\classes;C:\Users\Fadli Fajri\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Fadli Fajri\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Fadli Fajri\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Fadli Fajri\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Fadli Fajri\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Fadli Fajri"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\FADLIF~1\AppData\Local\Temp\surefire480479164055027028\surefirebooter7989845159318662924.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\FADLIF~1\AppData\Local\Temp\surefire3449379797433847512\surefirebooter1800045718298080324.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,5 +61,5 @@
     <property name="testng" value="testng.xml"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testHelloWorld" classname="sandbox01.HelloWorld" time="0.006"/>
+  <testcase name="testHelloWorld" classname="sandbox01.HelloWorld" time="0.005"/>
 </testsuite>
