@@ -1,4 +1,4 @@
-package sandbox02;
+package tugas04;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class FirstTest {
+public class YOPMailTest {
 
 	WebDriver driver = null;
 
