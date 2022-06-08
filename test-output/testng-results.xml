@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46" started-at="2022-06-06T09:44:33 ICT" finished-at="2022-06-06T09:44:33 ICT">
+  <suite name="Default suite" duration-ms="8647" started-at="2022-06-08T18:35:27 ICT" finished-at="2022-06-08T18:35:36 ICT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46" started-at="2022-06-06T09:44:33 ICT" finished-at="2022-06-06T09:44:33 ICT">
-      <class name="sandbox01.HelloWorld">
-        <test-method status="PASS" signature="testHelloWorld()[pri:0, instance:sandbox01.HelloWorld@7d0587f1]" name="testHelloWorld" duration-ms="7" started-at="2022-06-06T09:44:33 ICT" finished-at="2022-06-06T09:44:33 ICT">
+    <test name="Default test" duration-ms="8647" started-at="2022-06-08T18:35:27 ICT" finished-at="2022-06-08T18:35:36 ICT">
+      <class name="sandbox02.FirstTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sandbox02.FirstTest@23fe1d71]" name="setup" is-config="true" duration-ms="2302" started-at="2022-06-08T18:35:27 ICT" finished-at="2022-06-08T18:35:29 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHelloWorld -->
-      </class> <!-- sandbox01.HelloWorld -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="yopMail()[pri:0, instance:sandbox02.FirstTest@23fe1d71]" name="yopMail" duration-ms="5693" started-at="2022-06-08T18:35:29 ICT" finished-at="2022-06-08T18:35:35 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yopMail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:sandbox02.FirstTest@23fe1d71]" name="teardown" is-config="true" duration-ms="626" started-at="2022-06-08T18:35:35 ICT" finished-at="2022-06-08T18:35:36 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sandbox02.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
