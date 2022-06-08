@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8647" started-at="2022-06-08T18:35:27 ICT" finished-at="2022-06-08T18:35:36 ICT">
+  <suite name="Default suite" duration-ms="8762" started-at="2022-06-08T18:39:44 ICT" finished-at="2022-06-08T18:39:52 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8647" started-at="2022-06-08T18:35:27 ICT" finished-at="2022-06-08T18:35:36 ICT">
-      <class name="sandbox02.FirstTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:sandbox02.FirstTest@23fe1d71]" name="setup" is-config="true" duration-ms="2302" started-at="2022-06-08T18:35:27 ICT" finished-at="2022-06-08T18:35:29 ICT">
+    <test name="Default test" duration-ms="8762" started-at="2022-06-08T18:39:44 ICT" finished-at="2022-06-08T18:39:52 ICT">
+      <class name="tugas3.WebTestTugasPOM">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tugas3.WebTestTugasPOM@569cfc36]" name="setUp" is-config="true" duration-ms="7244" started-at="2022-06-08T18:39:44 ICT" finished-at="2022-06-08T18:39:51 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="yopMail()[pri:0, instance:sandbox02.FirstTest@23fe1d71]" name="yopMail" duration-ms="5693" started-at="2022-06-08T18:35:29 ICT" finished-at="2022-06-08T18:35:35 ICT">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sauceDemoLogin()[pri:0, instance:tugas3.WebTestTugasPOM@569cfc36]" name="sauceDemoLogin" duration-ms="919" started-at="2022-06-08T18:39:51 ICT" finished-at="2022-06-08T18:39:52 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- yopMail -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:sandbox02.FirstTest@23fe1d71]" name="teardown" is-config="true" duration-ms="626" started-at="2022-06-08T18:35:35 ICT" finished-at="2022-06-08T18:35:36 ICT">
+        </test-method> <!-- sauceDemoLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tugas3.WebTestTugasPOM@569cfc36]" name="tearDown" is-config="true" duration-ms="568" started-at="2022-06-08T18:39:52 ICT" finished-at="2022-06-08T18:39:52 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- sandbox02.FirstTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- tugas3.WebTestTugasPOM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
