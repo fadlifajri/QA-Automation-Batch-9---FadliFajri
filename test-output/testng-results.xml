@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8762" started-at="2022-06-08T18:39:44 ICT" finished-at="2022-06-08T18:39:52 ICT">
+  <suite name="Default suite" duration-ms="8617" started-at="2022-06-09T11:07:58 ICT" finished-at="2022-06-09T11:08:07 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8762" started-at="2022-06-08T18:39:44 ICT" finished-at="2022-06-08T18:39:52 ICT">
-      <class name="tugas3.WebTestTugasPOM">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tugas3.WebTestTugasPOM@569cfc36]" name="setUp" is-config="true" duration-ms="7244" started-at="2022-06-08T18:39:44 ICT" finished-at="2022-06-08T18:39:51 ICT">
+    <test name="Default test" duration-ms="8617" started-at="2022-06-09T11:07:58 ICT" finished-at="2022-06-09T11:08:07 ICT">
+      <class name="tugas04.YOPMailTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tugas04.YOPMailTest@23fe1d71]" name="setup" is-config="true" duration-ms="2938" started-at="2022-06-09T11:07:58 ICT" finished-at="2022-06-09T11:08:01 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sauceDemoLogin()[pri:0, instance:tugas3.WebTestTugasPOM@569cfc36]" name="sauceDemoLogin" duration-ms="919" started-at="2022-06-08T18:39:51 ICT" finished-at="2022-06-08T18:39:52 ICT">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="yopMail()[pri:0, instance:tugas04.YOPMailTest@23fe1d71]" name="yopMail" duration-ms="5000" started-at="2022-06-09T11:08:01 ICT" finished-at="2022-06-09T11:08:06 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sauceDemoLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tugas3.WebTestTugasPOM@569cfc36]" name="tearDown" is-config="true" duration-ms="568" started-at="2022-06-08T18:39:52 ICT" finished-at="2022-06-08T18:39:52 ICT">
+        </test-method> <!-- yopMail -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tugas04.YOPMailTest@23fe1d71]" name="teardown" is-config="true" duration-ms="649" started-at="2022-06-09T11:08:06 ICT" finished-at="2022-06-09T11:08:07 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tugas3.WebTestTugasPOM -->
+        </test-method> <!-- teardown -->
+      </class> <!-- tugas04.YOPMailTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

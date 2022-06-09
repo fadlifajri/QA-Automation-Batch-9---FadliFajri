@@ -1,4 +1,4 @@
-package tugas04;
+package tugas04.copy;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,11 +37,11 @@ public class YOPMailTest {
 		// Click and Assert Iframe
 		
 		driver.switchTo().frame("ifinbox");
-		driver.findElement(By.xpath("//span[normalize-space()='vacezulleque-6074@yopmail.com']")).click();
+		driver.findElement(By.cssSelector("div[id='e_ZwVjAwNmZQDjAQN1ZQNjZGVlZQDjZj=='] button[class='lm']")).click();
 		driver.switchTo().parentFrame();
 		driver.switchTo().frame("ifmail");
-		String carActual = driver.findElement(By.xpath("//div[@id='mail']//div[contains(text(),'Test Random')]")).getText();	
-		String carExpected = "Test Random";	
+		String carActual = driver.findElement(By.xpath("//span[normalize-space()='for your Mitsubishi']")).getText();	
+		String carExpected = "for your Mitsubishi";	
 		Assert.assertEquals(carActual, carExpected);
 		
 		

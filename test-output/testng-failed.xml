@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sandbox02.FirstTest">
+      <class name="tugas04.YOPMailTest">
         <methods>
+          <include name="teardown"/>
           <include name="setup"/>
           <include name="yopMail"/>
-          <include name="teardown"/>
         </methods>
-      </class> <!-- sandbox02.FirstTest -->
+      </class> <!-- tugas04.YOPMailTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
