@@ -24,24 +24,26 @@ public class YOPMailTest {
 	public void yopMail() {
 
 		// Login
+		/* Master Email = supersonicducksquadron01@yopmail.com
+		 * Test Email = supersonicducksquadron02@yopmail.com  */
 		driver.get("https://yopmail.com/en/");
-		driver.findElement(By.id("login")).sendKeys("automationtest");
+		driver.findElement(By.id("login")).sendKeys("supersonicducksquadron02@yopmail.com");
 		driver.findElement(By.xpath("//i[@class='material-icons-outlined f36']")).click();
 		
 		
-		String actualtext = "automationtest@yopmail.com";
-		String expectedtext = "automationtest@yopmail.com";
-		
+		String actualtext = driver.findElement(By.xpath("//div[@class='bname']")).getText();
+		String expectedtext = "supersonicducksquadron02@yopmail.com";
+				
 		Assert.assertEquals(actualtext, expectedtext);
 		
 		// Click and Assert Iframe
 		
 		driver.switchTo().frame("ifinbox");
-		driver.findElement(By.xpath("//span[normalize-space()='vacezulleque-6074@yopmail.com']")).click();
+		driver.findElement(By.xpath("//span[@class='lmf']")).click();
 		driver.switchTo().parentFrame();
 		driver.switchTo().frame("ifmail");
-		String carActual = driver.findElement(By.xpath("//div[@id='mail']//div[contains(text(),'Test Random')]")).getText();	
-		String carExpected = "Test Random";	
+		String carActual = driver.findElement(By.xpath("//div[normalize-space()='Tester']")).getText();	
+		String carExpected = "Tester";	
 		Assert.assertEquals(carActual, carExpected);
 		
 		
